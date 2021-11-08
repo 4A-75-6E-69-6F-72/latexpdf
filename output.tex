@@ -1,0 +1,186 @@
+\documentclass{report}
+
+\usepackage{textpos}
+\usepackage{tikzpagenodes}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{tikz}
+\usepackage{varwidth}
+\usepackage{tabularx}
+\usepackage{cellspace, graphicx, makecell}
+\usepackage{nccmath}
+\usepackage{epstopdf}
+\usepackage{float} 
+
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\textheight}{1.75in}
+\addtolength{\topmargin}{-.875in}
+
+\graphicspath{{../media/uploaded images/}}
+
+\definecolor{documentBaseColor}{HTML}{C9211E}
+
+\renewcommand\cellspacetoplimit{3pt}
+\renewcommand\cellspacebottomlimit{3pt}
+
+\newcolumntype{b}{>{\hsize=.65\hsize\centering\arraybackslash}X}
+\newcolumntype{s}{>{\hsize=.35\hsize\centering\arraybackslash}X}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+% \newcommand\rowincludegraphics[2][]{\raisebox{-0.45\height}{\includegraphics[#1]{#2}}}
+
+\begin{document}
+
+	%**********************************************first page**********************************************
+
+	%school header
+	\begin{textblock*}{4cm}(.5cm,-.5cm)
+		\centerline{d}
+		\centerline{d}
+	\end{textblock*}
+	
+	%subject header
+	\begin{textblock*}{4cm}(11.5cm,-.5cm)
+		\centerline{d}
+		\centerline{d}
+	\end{textblock*}
+	
+	%logo
+	\begin{textblock*}{4cm}(6cm,-1.5cm)
+		\centerline{\includegraphics[width=2.3cm]{bulbmergedcropped_vRMxObs.png}}
+	\end{textblock*}
+
+	%personal info
+	\begin{textblock*}{4cm}(0cm,3.1cm)
+	    \Large Name:
+	\end{textblock*}
+
+	\begin{textblock*}{12cm}(1.7cm,3.1cm)
+	     \Large \bf Ngouoghe Junior
+	\end{textblock*}
+
+	\begin{textblock*}{4cm}(0cm,4cm)
+	    \Large ID Number:
+	\end{textblock*}
+
+	\begin{textblock*}{12cm}(2.75cm,4cm)
+	    \Large \bf 19S018
+	\end{textblock*}
+
+	\begin{textblock*}{4cm}(0cm,4.9cm)
+	    \Large Level:
+	\end{textblock*}
+
+	\begin{textblock*}{12cm}(1.55cm,4.9cm)
+	    \Large\bf Junior II
+	\end{textblock*}
+
+	\begin{textblock*}{4cm}(0cm,5.8cm)
+	    \Large Field:
+	\end{textblock*}
+
+	\begin{textblock*}{12cm}(1.5cm,5.8cm)
+	    \Large \bf Computer Science
+	\end{textblock*}
+
+	%experiment name
+	\begin{textblock*}{18cm}(-0.8cm,8cm)
+		\begin{center}
+	     		 \color{documentBaseColor} \fontsize{33}{40}\selectfont d
+		\end{center}
+	\end{textblock*}
+
+	%descriptive image
+	\begin{textblock*}{4cm}(6.5cm,12cm)
+		\centerline{\includegraphics[height=7cm]{bulbmergedcropped_1kmFQ5m.png}}
+	\end{textblock*}
+
+	%supervisor info
+	\begin{textblock*}{4cm}(0cm,22cm)
+	    \Large Supervisor:
+	\end{textblock*}
+
+	\begin{textblock*}{12cm}(2.5cm,22cm)
+	    \Large \bf d
+	\end{textblock*}
+
+	%date info
+	\begin{textblock*}{4cm}(12cm,22cm)
+	    \Large Date:
+	\end{textblock*}
+
+	\begin{textblock*}{12cm}(13.2cm,22cm)
+	    \Large \bf 16/11/2021
+	\end{textblock*}
+
+	\newpage
+
+	%**********************************************second page**********************************************
+	
+	%Objectives
+
+	\LARGE\textcolor{documentBaseColor}{\underline{\textbf{I. Objectives}}}
+	\normalsize\begin{itemize}
+		\foreach \objectif in {{d}}{
+			\normalsize \item \text{\objectif}}
+	  \end{itemize} 
+	  \ \\
+	  
+
+	%   Theory
+	\LARGE\textcolor{documentBaseColor}{\underline{\textbf{II. Theory}}} \ \\ \par
+
+	\begin{fleqn}
+		\normalsize\begin{align}
+			d
+		\end{align}
+	\end{fleqn}
+	\ \\
+
+	% Apparatus
+	\LARGE\textcolor{documentBaseColor}{\underline{\textbf{III. Apparatus}}}
+	\begin{table}[H]
+		\bgroup
+		\def\arraystretch{2}
+		\begin{tabularx}{\textwidth}{| s | b |}
+			\hline
+			\Large\textbf{Equipment's name} & \Large\textbf{Image} \\ \hline
+		  d& \includegraphics[width=2.3cm]{bulbmergedcropped_YEn0t9x.png} 
+		  \\ \hline
+		\end{tabularx}
+		\egroup
+		% \caption{My caption}
+		% \label{my-label}
+	  \end{table}
+	\ \\
+
+	%   Procedure
+	  \LARGE\textcolor{documentBaseColor}{\underline{\textbf{IV. Procedure}}}
+	\normalsize\begin{itemize}
+		\foreach \objectif in {{d}}{
+			\normalsize \item \text{\objectif}}
+	  \end{itemize}
+	\ \\
+
+	%   Calculations and results
+	  \LARGE\textcolor{documentBaseColor}{\underline{\textbf{V. Calculations and Results}}} \ \\ \par
+	%   table image
+ \includegraphics[scale=0.65]{table1_G3chgmJ.png}  \par \ \par
+%   graph
+ \includegraphics[scale=0.6]{graph11_fvmT87o.png} \par \ \par
+%   sample calculation
+ \begin{fleqn} \normalsize\begin{align}{1.0+2.0 = 3.0}\end{align} \end{fleqn}	\par
+	\ \\  
+
+	%   Duscussion
+		\LARGE\textcolor{documentBaseColor}{\underline{\textbf{VI. Discussion}}}\\ \\
+	  \normalsize Throughout this experiment, we could have used; {d},  and {d}. In addition, the following factors could affect the result of the experiment; {d},  and {d}. To prevent some of these factors from producing faulty results, the following measures were taken; {d},  and {d}. \\ \\
+	  \ \\
+	  
+	%   Conclusion
+	  \LARGE\textcolor{documentBaseColor}{\underline{\textbf{VII. Conclusion}}}\\ \\
+	  \normalsize d
+
+\end{document} 
